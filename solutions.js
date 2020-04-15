@@ -50,7 +50,7 @@ function run() {
 				sortedValues = sortProperties(namesDict)
 				var file = fs.createWriteStream('names.txt'); // to write the names in a 'names.txt' file
 				file.on('error', function (err) { console.log("error while writing file", err) });
-				sortedValues.forEach(function (v) { file.write(v.join(' ') + '\n'); }); // process line by line 
+				sortedValues.forEach(function (v) { file.write(v.join(': ') + '\n'); }); // process line by line 
 				file.end();
 				console.log("Sucessfully finished!")
 			}))
