@@ -1,0 +1,24 @@
+{
+  "name": "we_build_bots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshuteotia/we_build_bots.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himanshuteotia/we_build_bots/issues"
+  },
+  "homepage": "https://github.com/himanshuteotia/we_build_bots#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "event-stream": "^4.0.1",
+    "express": "^4.17.1"
+  }
+}
